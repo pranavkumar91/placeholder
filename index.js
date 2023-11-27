@@ -22,6 +22,10 @@ app.get('/ssc', (req, res) => {
     res.sendFile(__dirname + '/quiz_ssc.html');
 })
 
+app.get('/ibps', (req, res) => {
+    res.sendFile(__dirname + '/quiz_ibps.html');
+})
+
 
 app.get('/refundandcancellation', (req, res) => {
     res.sendFile(__dirname + '/refundandcancellation.html');
