@@ -14,8 +14,12 @@ app.get('/privacy', (req, res) => {
     res.sendFile(__dirname + '/privacy.html');
 })
 
-app.get('/quiz', (req, res) => {
+app.get('/bpsc', (req, res) => {
     res.sendFile(__dirname + '/quiz.html');
+})
+
+app.get('/ssc', (req, res) => {
+    res.sendFile(__dirname + '/quiz_ssc.html');
 })
 
 
