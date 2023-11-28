@@ -26,6 +26,10 @@ app.get('/ibps', (req, res) => {
     res.sendFile(__dirname + '/quiz_ibps.html');
 })
 
+app.get('/cdpo', (req, res) => {
+    res.sendFile(__dirname + '/quiz_cdpo.html');
+})
+
 
 app.get('/refundandcancellation', (req, res) => {
     res.sendFile(__dirname + '/refundandcancellation.html');
